@@ -1,0 +1,12 @@
+{
+  "name": "POC-report-fake",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -p 8080 -w db.json --routes routes.json"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.15.0"
+  }
+}
